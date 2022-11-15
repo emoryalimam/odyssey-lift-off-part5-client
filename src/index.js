@@ -7,7 +7,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache } from "@apollo/client";
 const client = new ApolloClient({
   uri: "https://odyssey-lift-off-part5-server-production-bfb3.up.railway.app/",
   cache: new InMemoryCache(),
-  name: "web",
+  name: "web-client",
   version: "1.0",
 });
 
